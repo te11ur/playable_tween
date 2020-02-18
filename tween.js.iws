@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37437cd1-7fe9-4f02-84d4-72b90b06dcd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/easing/Back.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Bounce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Circular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Cubic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Elastic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Exponential.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Linear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Quadratic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Quartic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Quintic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easing/Sinusoidal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpolation/Bezier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpolation/CatmullRom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpolation/Linear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpolation/Utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polyfill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tween.js.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/tween.js.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js.iws" beforeDir="false" afterPath="$PROJECT_DIR$/tween.js.iws" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +40,14 @@
   </component>
   <component name="ProjectId" id="1XTyh6P8FhpvzXHChPtw6Q0awFs" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunDashboard">
@@ -49,6 +73,9 @@
       <option name="presentableId" value="Default" />
       <updated>1581084494076</updated>
       <workItem from="1581084496474" duration="5298000" />
+      <workItem from="1581683309221" duration="299000" />
+      <workItem from="1581683718533" duration="142000" />
+      <workItem from="1582012570087" duration="71000" />
     </task>
     <servers />
   </component>
@@ -60,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
