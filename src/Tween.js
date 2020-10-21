@@ -45,6 +45,10 @@ export class Group {
         delete this._tweensAddedDuringUpdate[tween.getId()];
     }
 
+    has() {
+        return Object.keys(this._tweens).length > 0 || Object.keys(this._tweensAddedDuringUpdate).length > 0;
+    }
+
     update(time, preserve) {
         let tweenIds = Object.keys(this._tweens);
         if (tweenIds.length === 0) {

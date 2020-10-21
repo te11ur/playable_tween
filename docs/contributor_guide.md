@@ -122,7 +122,7 @@ We have implemented a continuous integration system that does things automatical
 
 If proposed changes in a pull request break anything, contributors get feedback without having to wait for a human to have a look at the code. Also, the request cannot be merged until the tests pass.
 
-We are using the Travis CI platform to run the tests. You will find a little information area at the bottom of the pull request page, letting you know about the state of the tests.
+We are using the Travis CI floor to run the tests. You will find a little information area at the bottom of the pull request page, letting you know about the state of the tests.
 
 Example of all checks passing:
 
