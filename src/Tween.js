@@ -36,13 +36,15 @@ export class Group {
     }
 
     add(tween) {
-        this._tweens[tween.getId()] = tween;
-        this._tweensAddedDuringUpdate[tween.getId()] = tween;
+        const id = tween.getId();
+        this._tweens[id] = tween;
+        this._tweensAddedDuringUpdate[id] = tween;
     }
 
     remove(tween) {
-        delete this._tweens[tween.getId()];
-        delete this._tweensAddedDuringUpdate[tween.getId()];
+        const id = tween.getId();
+        delete this._tweens[id];
+        delete this._tweensAddedDuringUpdate[id];
     }
 
     has() {
